@@ -1,0 +1,112 @@
+/* |Put a border around everything| */
+
+* {
+    border: 1px solid red;
+}
+
+/* |Colors fonts and sizes [First-Box]| */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.first-box {
+    background-color: #1F2937;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 600px;
+}
+
+.header {
+    padding: 0;
+    margin: 0;
+}
+
+.headerlogo, .title, .button {
+    color: #F9FAF8;
+}
+
+.link, .title-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.headerlogo {
+    font-size: 24px;
+}
+
+.title {
+    width: 350px;
+    font-size: 48px;
+    font-weight: bolder;
+    height: 60px;
+}
+
+.title-subtext {
+    width: 450px;
+}
+
+.button {
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    height: 42px;
+    border-radius: 12px;
+}
+
+.catimg {
+    width: 600px;
+    height: 200px;
+}
+
+.header, .middle {
+    width: auto;
+}
+
+/* |Colors fonts and sizes [Second-Box]| */
+
+.second-box {
+    display: flex;
+}
+
+
+/* |Flexbox [First-Box]| */
+
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Header Toolbar */
+li {
+    display: inline;
+    padding-inline: 10px;
+}
+
+.header {
+    display: flex;
+    justify-self: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+/* Middle content and img */
+
+.middle {
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
