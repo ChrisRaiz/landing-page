@@ -68,8 +68,21 @@ body {
 /* |Colors fonts and sizes [Second-Box]| */
 
 .second-box {
-    display: flex;
+    background-color: #F9FAF8;
+    text-align: center;
 }
+
+.second-box-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.blankimg-subtext {
+    font-size: 18px;
+    color: #677894;
+}
+
 
 
 /* |Flexbox [First-Box]| */

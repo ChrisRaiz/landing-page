@@ -53,11 +53,11 @@ Content [done]
 CSS
 
 Color and Fonts
-• Background color for the entire box is background-color: #f9FAF8;
+• Background color for the entire box is background-color: #f9FAF8; [done]
 • The information header is as follows
-    font-size: 36px; | font-weight: extra-bold | color: #1F2937;
+    font-size: 36px; | font-weight: extra-bold | color: #1F2937; [done]
 • The subtext is as follows
-    font-size: 18px; | color: #E5E7EB;
+    font-size: 18px; | color: #E5E7EB; [done]
 
 Placement
 • The information header is vertical top | horizontal center
