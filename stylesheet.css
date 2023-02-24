@@ -4,18 +4,25 @@
     border: 1px solid red;
 }
 
+* {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 /* |Colors fonts and sizes [First-Box]| */
 
 body {
     font-family: 'Roboto', sans-serif;
     margin: auto;
+    background-color: black;
 }
 
 .first-box {
     background-color: #1F2937;
     padding-left: 400px;
     padding-right: 400px;
-    height: 600px;
+    padding-bottom: 70px;
+    height: auto;
 }
 
 .header {
@@ -61,37 +68,25 @@ body {
     height: 200px;
 }
 
-.header, .middle {
+.header, .middle1 {
     width: auto;
 }
 
-/* |Colors fonts and sizes [Second-Box]| */
-
-.second-box {
-    background-color: #F9FAF8;
-    text-align: center;
+.sides {
+    width: 1200px;
 }
-
-.second-box-title {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-}
-
-.blankimg-subtext {
-    font-size: 18px;
-    color: #677894;
-}
-
-
 
 /* |Flexbox [First-Box]| */
 
-
 .first-box {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sides {
+    display: flex;
     flex-direction: column;
-    flex-grow: 1;
 }
 
 /* Header Toolbar */
@@ -110,10 +105,10 @@ li {
 
 /* Middle content and img */
 
-.middle {
+.middle1 {
     display: flex;
     justify-self: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
     margin-top: 10%;
@@ -123,3 +118,70 @@ li {
     display: flex;
     flex-direction: column;
 }
+
+
+/* ---------------------------BREAK--------------------------- */
+
+
+/* |Colors fonts and sizes [Second-Box]| */
+
+.second-box {
+    background-color: #F9FAF8;
+    text-align: center;
+    height: 110%;
+}
+
+.second-box-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.blankimg-subtext {
+    font-size: 18px;
+    color: #677894;
+}
+
+.blankimg {
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* |Flexbox [Second-Box]| */
+
+.second-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 35px;
+
+}
+
+
+.middle2 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgsub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 30px;
+}
+
+.blankimg-subtext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    margin-top: 10px;
+}
+
+
+/* ---------------------------BREAK--------------------------- */
+
+
+/* |Colors fonts and sizes [Third-Box]| */
+/* |Flexbox [Third-Box]| */
